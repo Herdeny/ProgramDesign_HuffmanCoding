@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sender_interface</class>
+ <widget class="QWidget" name="Sender_interface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>738</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sender_interface</string>
+  </property>
+  <widget class="QFrame" name="LoginMenu">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>761</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="Data_Encode_Button">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>200</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0076b4;
+    border: 1px solid #dcdfe6;
+    padding: 10px;
+    border-radius: 5px;
+	color: rgb(255, 255, 255);
+	font: 600 10pt &quot;Segoe UI Variable Text Semibold&quot;;
+}
+
+QPushButton:hover {
+    background-color: #ecf5ff;
+    color: #409eff;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>编码 &quot;data.txt&quot; 文件</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Welcome_Label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>40</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:700; color:#0974ae;&quot;&gt;哈夫曼编码端&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Close_Button">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>0</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-style:outset;
+background-color: rgba(255, 255, 255, 0);
+border-radius:0px
+}
+
+QPushButton:hover{ 
+	background-color: rgb(255, 0, 0);
+}
+ 
+QPushButton:pressed{
+	background-color: rgb(220,92,102);
+}</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Hide_Button">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>0</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-style:outset;
+background-color: rgba(255, 255, 255, 0);
+border-radius:0px
+}
+
+QPushButton:hover{ 
+	background-color: rgb(239, 231, 231);
+}
+ 
+QPushButton:pressed{
+	background-color: rgb(243,234,234);
+}</string>
+    </property>
+    <property name="text">
+     <string>—</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Change_Button">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>340</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0076b4;
+    border: 1px solid #dcdfe6;
+    padding: 10px;
+    border-radius: 5px;
+	color: rgb(255, 255, 255);
+	font: 600 10pt &quot;Segoe UI Variable Text Semibold&quot;;
+}
+
+QPushButton:hover {
+    background-color: #ecf5ff;
+    color: #409eff;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>切换到译码端</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Open_FileFolder">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>270</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0076b4;
+    border: 1px solid #dcdfe6;
+    padding: 10px;
+    border-radius: 5px;
+	color: rgb(255, 255, 255);
+	font: 600 10pt &quot;Segoe UI Variable Text Semibold&quot;;
+}
+
+QPushButton:hover {
+    background-color: #ecf5ff;
+    color: #409eff;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>打开密文与哈夫曼树所在文件夹</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Straight_Encode_Button">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>130</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0076b4;
+    border: 1px solid #dcdfe6;
+    padding: 10px;
+    border-radius: 5px;
+	color: rgb(255, 255, 255);
+	font: 600 10pt &quot;Segoe UI Variable Text Semibold&quot;;
+}
+
+QPushButton:hover {
+    background-color: #ecf5ff;
+    color: #409eff;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>编码————&gt;&gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>231</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Welcome_Label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#0974ae;&quot;&gt;明文输入端&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>130</y>
+      <width>231</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(170, 170, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Welcome_Label_3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>90</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#0974ae;&quot;&gt;密文显示端&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Complete_Code_Label">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>100</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>编码完成</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Not_Null_Label">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>100</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>输入端为空！</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Wrong_Code_Label_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>100</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>明文不合规，请核对！</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>plainTextEdit</sender>
+   <signal>textChanged()</signal>
+   <receiver>Sender_interface</receiver>
+   <slot>on_plainTextEdit_textChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>500</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>on_plainTextEdit_textChanged()</slot>
+ </slots>
+</ui>

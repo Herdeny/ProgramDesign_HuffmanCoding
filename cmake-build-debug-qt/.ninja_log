@@ -1,0 +1,13 @@
+# ninja log v6
+25	3086	7395569193974526	ProgramDesign_HuffmanCoding_autogen/timestamp	f1f1486720b52a74
+25	3086	7395569193974526	ProgramDesign_HuffmanCoding_autogen/mocs_compilation.cpp	f1f1486720b52a74
+25	3086	7395569193974526	D:/ACM/ProgramDesign_HuffmanCoding/cmake-build-debug-qt/ProgramDesign_HuffmanCoding_autogen/timestamp	f1f1486720b52a74
+25	3086	7395569193974526	D:/ACM/ProgramDesign_HuffmanCoding/cmake-build-debug-qt/ProgramDesign_HuffmanCoding_autogen/mocs_compilation.cpp	f1f1486720b52a74
+3103	3868	7395569194901255	CMakeFiles/ProgramDesign_HuffmanCoding.dir/Program/Node.cpp.obj	6d1f05aee03a27a5
+3120	3886	7395569195067799	CMakeFiles/ProgramDesign_HuffmanCoding.dir/Program/HuffmanTree.cpp.obj	1e062410c4cfab50
+3128	3903	7395569195149082	CMakeFiles/ProgramDesign_HuffmanCoding.dir/Program/system.cpp.obj	fcbb4c8f9b695250
+3094	5054	7395569194810695	CMakeFiles/ProgramDesign_HuffmanCoding.dir/Program/main.cpp.obj	2d31e2070762f17e
+3086	5059	7395569194729063	CMakeFiles/ProgramDesign_HuffmanCoding.dir/ProgramDesign_HuffmanCoding_autogen/mocs_compilation.cpp.obj	5bf956ba3ef70e3d
+3112	5061	7395569194987489	CMakeFiles/ProgramDesign_HuffmanCoding.dir/UI/mainwindow.cpp.obj	1b8e9b8039a6c6e0
+3146	5821	7395569195323631	CMakeFiles/ProgramDesign_HuffmanCoding.dir/UI/receiver_interface.cpp.obj	e490b8965a82d78c
+3137	6140	7395569195239211	CMakeFiles/ProgramDesign_HuffmanCoding.dir/UI/sender_interface.cpp.obj	854a116fd5d0ffa9

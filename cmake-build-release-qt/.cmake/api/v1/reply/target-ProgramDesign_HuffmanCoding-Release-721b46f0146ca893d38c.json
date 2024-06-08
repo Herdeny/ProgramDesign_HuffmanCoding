@@ -1,0 +1,591 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ProgramDesign_HuffmanCoding.exe"
+		},
+		{
+			"path" : "ProgramDesign_HuffmanCoding.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies"
+		],
+		"files" : 
+		[
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"D:/Program Files/Jetbrains/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 741,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 549,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 157,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 52,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 10
+			},
+			{
+				"file" : 9,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 39,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 111,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 52,
+				"parent" : 19
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 550,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 111,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 24
+			},
+			{
+				"file" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 52,
+				"parent" : 26
+			},
+			{
+				"file" : 10,
+				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 28
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 23,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE5COMPAT_LIB"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/ACM/ProgramDesign_HuffmanCoding/cmake-build-release-qt/ProgramDesign_HuffmanCoding_autogen/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.5.0/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.5.0/mingw_64/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.5.0/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.5.0/mingw_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.5.0/mingw_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.5.0/mingw_64/include/QtCore5Compat"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					23,
+					23
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				7,
+				9,
+				11,
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ProgramDesign_HuffmanCoding_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ProgramDesign_HuffmanCoding_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ProgramDesign_HuffmanCoding::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Widgets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Core5Compat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Gui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-ld3d11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-ldxgi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-ldxguid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-ldcomp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "-lmpr",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "-luserenv",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ProgramDesign_HuffmanCoding",
+	"nameOnDisk" : "ProgramDesign_HuffmanCoding.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				7,
+				9,
+				11,
+				14
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				8,
+				10,
+				12,
+				15,
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				6,
+				13,
+				16,
+				20
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release-qt/ProgramDesign_HuffmanCoding_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Program/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Program/Node.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Program/Node.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "UI/mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "UI/mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "UI/mainwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Program/HuffmanTree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Program/HuffmanTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Program/system.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Program/system.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "UI/sender_interface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "UI/sender_interface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "UI/sender_interface.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "UI/receiver_interface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "UI/receiver_interface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "UI/receiver_interface.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release-qt/ProgramDesign_HuffmanCoding_autogen/include/UI/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release-qt/ProgramDesign_HuffmanCoding_autogen/include/UI/ui_sender_interface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release-qt/ProgramDesign_HuffmanCoding_autogen/include/UI/ui_receiver_interface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release-qt/ProgramDesign_HuffmanCoding_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release-qt/ProgramDesign_HuffmanCoding_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}
